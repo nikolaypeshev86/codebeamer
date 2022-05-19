@@ -23,7 +23,7 @@ services:
       - cb
 
   codebeamer-app:
-    image: intland/codebeamer:21.09-lts
+    image: intland/codebeamer:22.04
     ports:
       - 8080:8080
     environment:
